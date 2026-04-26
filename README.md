@@ -1,4 +1,4 @@
-<img width="1693" height="610" alt="image" src="https://github.com/user-attachments/assets/a1cf3fa5-5755-42d8-936c-53e8f444b7f7" /># A Survey on Industrial Anomaly Synthesis
+# A Survey on Industrial Anomaly Synthesis
 
 We discuss anomaly synthesis methods in detail. Welcome to read our paper and make comments.
 
