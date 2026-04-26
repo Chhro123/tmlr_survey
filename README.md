@@ -2,11 +2,9 @@
 
 We discuss anomaly synthesis methods in detail. Welcome to read our paper and make comments.
 
-
 ## Taxonomy of Industrial Image Anomaly Synthesis
 
-
-## Hand-Crafted Model
+## Hand-Crafted Method
 
 ### Self-Contained
 
@@ -19,13 +17,11 @@ We discuss anomaly synthesis methods in detail. Welcome to read our paper and ma
 + REB: Reducing Biases in Representation for Industrial Anomaly Detection [[KBS 2024]](https://arxiv.org/abs/2308.12577)[[code]](https://github.com/ShuaiLYU/REB)
 + VDDM: A Study on Data Augmentation Techniques for Visual Defect Detection in Manufacturing [[BVAu 2023]](https://doi.org/10.1007/978-3-662-66769-9_6)
 
-
 ### External-Dependent
 
 + DeSTSeg: Segmentation Guided Denoising Student-Teacher for Anomaly Detection [[CVPR 2023]](https://arxiv.org/abs/2211.11317)[[code]](https://github.com/apple/ml-destseg)
 + DRAEM: A Discriminatively Trained Reconstruction Embedding for Surface Anomaly Detection [[ICCV 2021]](http://arxiv.org/pdf/2108.07610)[[code]](https://github.com/vitjanz/draem)
 + MemSeg: A Semi-supervised Method for Image Surface Defect Detection Using Differences and Commonalities [[EAAI 2023]](https://arxiv.org/pdf/2205.00908.pdf)[[unofficial code]](https://github.com/TooTouch/MemSeg)
-
 
 ### Inpainting-Based
 
@@ -38,7 +34,6 @@ We discuss anomaly synthesis methods in detail. Welcome to read our paper and ma
 + RIAD: Reconstruction by Inpainting for Visual Anomaly Detection [[PR 2021]](https://www.sciencedirect.com/science/article/pii/S0031320320305094)
 + SMAI: Superpixel Masking and Inpainting for Self-Supervised Anomaly Detection [[BMVC 2020]](https://www.bmvc2020-conference.com/assets/papers/0275.pdf)
 
-
 ## Distribution Hypothesis-Based Models
 
 ### Prior-Dependent
@@ -48,14 +43,12 @@ We discuss anomaly synthesis methods in detail. Welcome to read our paper and ma
 + PBAS: Progressive Boundary Guided Anomaly Synthesis for Industrial Anomaly Detection [[TCSVT 2024]](https://ieeexplore.ieee.org/document/10716437)[[code]](https://github.com/cqylunlun/PBAS)
 + SPVAE: Manifolds for Unsupervised Visual Anomaly Detection [[arXiv 2020]](https://arxiv.org/abs/2006.11364)
 
-
 ### Data-Driven
 
 + DSR: A Dual Subspace Re-projection Network for Surface Anomaly Detection [[ECCV 2022]](https://arxiv.org/pdf/2208.01521.pdf)[[code]](https://github.com/VitjanZ/DSR_anomaly_detection)
 + SimpleNet: A Simple Network for Image Anomaly Detection and Localization [[CVPR 2023]](https://github.com/DonaldRR/SimpleNet)[[code]](https://github.com/DonaldRR/SimpleNet)
 + SuperSimpleNet: Unifying Unsupervised and Supervised Learning for Fast and Reliable Surface Defect Detection [[ICPR 2025]](https://arxiv.org/abs/2408.03143)[[code]](https://github.com/blaz-r/SuperSimpleNet/tree/main)
 + UniAD: A Unified Model for Multi-class Anomaly Detection [[NeurIPS 2022]](https://arxiv.org/pdf/2206.03687.pdf)[[code]](https://github.com/zhiyuanyou/UniAD)
-
 
 ## GM-Based Models
 
@@ -67,7 +60,6 @@ We discuss anomaly synthesis methods in detail. Welcome to read our paper and ma
 + Multistage GAN: Multistage GAN for Fabric Defect Detection [[TIP 2019]](https://pubmed.ncbi.nlm.nih.gov/31870985/)
 + RealNet: A Feature Selection Network with Realistic Synthetic Anomaly for Anomaly Detection [[CVPR 2024]](https://arxiv.org/abs/2403.05897)[[code]](https://github.com/cnulab/RealNet)
 
-
 ### Full-Image Translation
 
 + AttenCGAN: A New Cycle-consistent Adversarial Networks with Attention Mechanism for Surface Defect Classification with Small Samples [[TII 2022]](https://ieeexplore.ieee.org/abstract/document/9760037/)
@@ -76,14 +68,12 @@ We discuss anomaly synthesis methods in detail. Welcome to read our paper and ma
 + Pix2Pix: Image-to-Image Translation with Conditional Adversarial Networks [[CVPR 2017]](https://arxiv.org/abs/1611.07004)[[code]](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 + SDGAN: Defect Image Sample Generation with GAN for Improving Defect Recognition [[TASE 2020]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9000806)
 
-
 ### Local Anomaly Synthesis
 
 + DCDGANc: Diversified and Multi-Class Controllable Industrial Defect Synthesis for Data Augmentation and Transfer [[CVPRW 2023]](https://openaccess.thecvf.com/content/CVPR2023W/VISION/html/Wei_Diversified_and_Multi-Class_Controllable_Industrial_Defect_Synthesis_for_Data_Augmentation_CVPRW_2023_paper.html)
 + MDGAN: Mask-guided Generation Method for Industrial Defect Images with Non-uniform Structures [[Machines 2022]](https://www.mdpi.com/2075-1702/10/12/1239)
-+ Open-set Fabric: Open-Set Fabric Defect Detection with Defect Generation and Transfer [[TIM 2025]](https://doi.org/10.1109/TIM.2025.3547485)
++ Open-set Fabric: Open-set Fabric Defect Detection with Defect Generation and Transfer [[TIM 2025]](https://doi.org/10.1109/TIM.2025.3547485)
 + SARD: Segmentation-Aware Anomaly Synthesis via Region-Constrained Diffusion with Discriminative Mask Guidance [[MIND 2025]](https://doi.org/10.1109/MIND67540.2025.11351901)
-
 
 ## Vision-Language Models-Based Models
 
@@ -99,13 +89,12 @@ We discuss anomaly synthesis methods in detail. Welcome to read our paper and ma
 + FAST: Foreground-aware Diffusion with Accelerated Sampling Trajectory for Segmentation-oriented Anomaly Synthesis [[NeurIPS 2025]](https://openreview.net/forum?id=qqEfm8tlCM)
 + TF-IDG: Training-Free Industrial Defect Generation with Diffusion Models [[ICCV 2025]](https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Training-Free_Industrial_Defect_Generation_with_Diffusion_Models_ICCV_2025_paper.html)
 
-
 ### Multi-Stage Generation
 
-+ AdaBLDM: A Novel Approach to Industrial Defect Generation through Blended Latent Diffusion Model with Online Adaptation [[arXiv 2024]](https://arxiv.org/abs/2402.19330)[[code]](https://github.com/GrandpaXun242/AdaBLDM)
++ AdaBLDM: A Novel Approach to Industrial Defect Generation through Blended Latent Diffusion Model with Online Adaptation [[arXiv 2024]](https://arxiv.org/abs/2403.10011)[[code]](https://github.com/GrandpaXun242/AdaBLDM)
 + AnomalyDiffusion: Few-Shot Anomaly Image Generation with Diffusion Model [[AAAI 2024]](https://ojs.aaai.org/index.php/AAAI/article/view/28696)[[code]](https://github.com/sjtuplayer/anomalydiffusion)
 + BeltDiff: Diffusion-based Self-labeled Generation System for Conveyor Belt Damage Detection [[EAAI 2025]](https://doi.org/10.1016/j.engappai.2025.112287)
-+ DefectDiffu: Few-shot Defect Image Generation based on Consistency Modeling [[ECCV 2024]](https://arxiv.org/abs/2408.00372)[[code]](https://github.com/FFDD-diffusion/DefectDiffu)
++ DefectDiffu: Few-shot Defect Image Generation based on Consistency Modeling [[ECCV 2025]](https://arxiv.org/abs/2408.00372)[[code]](https://github.com/FFDD-diffusion/DefectDiffu)
 + DualAnoDiff: Dual-Interrelated Diffusion Model for Few-Shot Anomaly Image Generation [[arXiv 2024]](https://arxiv.org/abs/2408.13509)[[code]](https://github.com/yinyjin/DualAnoDiff)
 + GAA: Generate Aligned Anomaly: Region-Guided Few-Shot Anomaly Image-Mask Pair Synthesis for Industrial Inspection [[ACM MM 2025]](https://dl.acm.org/doi/10.1145/3746027.3755081)
 + SeaS: Few-shot Industrial Anomaly Image Generation with Separation and Sharing Fine-tuning [[ICCV 2025]](https://openaccess.thecvf.com/content/ICCV2025/papers/Dai_SeaS_Few-shot_Industrial_Anomaly_Image_Generation_with_Separation_and_Sharing_ICCV_2025_paper.pdf)
