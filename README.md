@@ -1,4 +1,4 @@
-# awesome-anomaly-synthesis
+# A Survey on Industrial Anomaly Synthesis
 
 We discuss anomaly synthesis methods in detail. Welcome to read our paper and make comments.
 
